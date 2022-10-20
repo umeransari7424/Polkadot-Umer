@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import './App.scss';
+import Blog from "./Components/Elements/Blog";
+import Hero from "./Components/Elements/Hero";
+import Interoparaility from "./Components/Elements/Interoparaility";
+import Invovled from "./Components/Elements/Invovled";
+import Opensource from "./Components/Elements/Opensource";
+import Powering from "./Components/Elements/Powering";
+import Team from "./Components/Elements/Team";
+import Footer from "./Components/Layout/Footer";
+import Header from './Components/Layout/Header';
+
+
+
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <Hero/>
+      <Interoparaility/>
+      <Powering/>
+      <Opensource/>
+      <Team/>
+      <Blog/>
+      <Invovled/>
+      <Footer/>
+     
     </div>
   );
 }

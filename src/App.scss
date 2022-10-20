@@ -1,0 +1,122 @@
+.footerbg{
+    background-color: black;
+    color: white;
+    .footer-list{
+        line-height: 2.2;
+    }
+    a{
+        text-decoration: none;
+        color: grey;
+    }
+    span{
+        color: grey;
+    }
+}
+
+.card-img-top{
+    aspect-ratio: 2/1 !important;
+}
+.card-footer{
+    background-color: white !important;
+    border: none !important;
+   
+}
+.blogspan{
+    color: #e6007a !important;
+}
+
+.invovled{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    text-align: center;
+}
+
+.teambg{
+    background-image: url("Media/web3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    .teamheading{
+        font-size: 70px;
+        font-weight: 700;
+    }
+    button{
+        color: white !important;
+        padding: 15px 20px !important ;
+        border-radius: 25px !important;
+        font-weight: 500 !important;
+    }
+}
+@media screen and (max-width:600px) {
+    .teamheading{
+        font-size: 30px !important;
+        font-weight: 600 !important;
+    }
+    
+}
+
+.openbg{
+    background-color: #d64cA8;
+    color: white;
+    .openheading{
+        font-size: 60px !important;
+        font-weight: 700;
+
+    }
+}
+.powerbg{
+    background-color: black !important;
+     color: white!important;
+     .card{
+        background-color: transparent !important;
+     }
+     button{
+        color: white !important;
+        padding: 15px 20px !important ;
+        border-radius: 25px !important;
+        font-weight: 500 !important;
+    }
+}
+.interoparaility{
+    .card{
+        border : none !important;
+
+    }
+}
+.Hero{
+    .vision{
+        display: flex;
+        align-items: center;
+
+    }
+    button{
+        color: white !important;
+        padding: 15px 20px !important ;
+        border-radius: 25px !important;
+        font-weight: 500 !important;
+    }
+
+    
+    .herobgimg{
+        background-color: black!important;
+        
+        
+        // background-image: url("Media/xcm-animation-outer.svg");
+        // background-repeat: no-repeat;
+        // background-position: center;
+        // background-size: contain;
+        // position:relative;
+        // color: black;
+        
+        // .heroimg{
+        // position: absolute;
+        // background-image: url("Media/xcm-animation-inner.png");
+        // background-repeat: no-repeat;
+        // background-position: center;
+          
+
+        // }
+    }
+
+}

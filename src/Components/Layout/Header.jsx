@@ -1,11 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
     <div>
          <nav className="navbar navbar-expand-lg py-4">
         <div className="container">
+          <Link to="/" >
           <img src="Assets/logo-polkadot.svg" width={"150px"} alt="PorkSwap" />
+          </Link>
 
           <button
             className="navbar-toggler"
@@ -24,39 +27,39 @@ function Header() {
           >
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link className="nav-link active" aria-current="page" to="/technology">
                   Technology
-                </a>
+                </Link>
               </li>{" "}
               &nbsp; &nbsp; &nbsp;
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link className="nav-link active" aria-current="page" to="/community">
                   Community
-                </a>
+                </Link>
               </li>
               &nbsp; &nbsp;&nbsp;
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link className="nav-link active" aria-current="page" to="/about">
                   About
-                </a>
+                </Link>
               </li>{" "}
               &nbsp; &nbsp;&nbsp;
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link className="nav-link active" aria-current="page" to="/blog">
                   Blog
-                </a>
+                </Link>
               </li>
               &nbsp; &nbsp;&nbsp;
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link className="nav-link active" aria-current="page" to="/build">
                   Build
-                </a>
+                </Link>
               </li>{" "}
               &nbsp; &nbsp;&nbsp;
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link className="nav-link active" aria-current="page" to="/contact">
                   Contact
-                </a>
+                </Link>
               </li>{" "}
               &nbsp; &nbsp;&nbsp;
               

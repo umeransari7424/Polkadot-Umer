@@ -1,37 +1,24 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.scss';
-import Blog from "./Components/Elements/Blog";
-import Hero from "./Components/Elements/Hero";
-import Interoparaility from "./Components/Elements/Interoparaility";
-import Invovled from "./Components/Elements/Invovled";
-import Opensource from "./Components/Elements/Opensource";
-import Powering from "./Components/Elements/Powering";
-import Team from "./Components/Elements/Team";
-import Footer from "./Components/Layout/Footer";
-import Header from './Components/Layout/Header';
-
-
-
-
-
-
-
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import Base from "./Components/Layout/Base";
+import Technology from "./Pages/Technology";
+import Community from "./Pages/Community";
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Hero/>
-      <Interoparaility/>
-      <Powering/>
-      <Opensource/>
-      <Team/>
-      <Blog/>
-      <Invovled/>
-      <Footer/>
-     
-    </div>
+    <>
+    <BrowserRouter>
+      <Base>
+        <Routes>
+          <Route index path="/" element={<Home />} />
+          <Route index path="/technology" element={<Technology />} />
+          <Route index path="/community" element={<Community />} />
+        </Routes>
+      </Base>
+    </BrowserRouter>
+  </>
   );
 }
 

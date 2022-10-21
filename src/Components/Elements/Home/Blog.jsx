@@ -2,15 +2,15 @@ import React from "react";
 
 function Blog() {
   return (
-    <div>
+    <div className="blog">
       <div className="container text-center py-5">
         <div className="row">
           <h1>From The Blog</h1>
         </div>{" "}
         <br /> <br />
         <div className="row">
-          <div className="col-md-4 col-12 mb-4 text-start">
-            <div className="card" style={{ width: "20rem", height: "36rem" }}>
+          <div className="col-md-4 col-12  text-start">
+            <div className="card mb-2" style={{  height: "36rem" }}>
               <img
                 src="Assets/image1.png"
                 className="card-img-top image-fluid"
@@ -25,9 +25,7 @@ function Blog() {
                 <p className="card-text">
                   KILT Protocol's migration from Kusama to Polkadot is an
                   important technical milestone and the first parachain
-                  migration. Polkadot's 'canary network' model allows Web3
-                  projects to test their technology in a real-world environment
-                  before upgrading to stable production networks....
+                  migration. Polkadot's 'canary network' model allows Web3....
                 </p>
                
               </div>
@@ -36,8 +34,8 @@ function Blog() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-12 mb-4 text-start">
-            <div className="card" style={{ width: "20rem", height: "36rem" }}>
+          <div className="col-md-4 col-12  text-start">
+            <div className="card mb-2" style={{ height: "36rem" }}>
               <img
                 src="Assets/image2.png"
                 className="card-img-top image-fluid"
@@ -60,8 +58,8 @@ function Blog() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-12 mb-4 text-start">
-            <div className="card" style={{ width: "20rem", height: "36rem" }}>
+          <div className="col-md-4 col-12 text-start">
+            <div className="card mb-2" style={{ height: "36rem" }}>
               <img
                 src="Assets/image3.jpg"
                 className="card-img-top image-fluid"

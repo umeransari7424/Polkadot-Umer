@@ -7,7 +7,7 @@ function Interoparaility() {
 
         <div className="row py-2">
           <div className="col-md-4 col-12 mb-4 text-start">
-            <div className="card " style={{ width: "20rem", height: "25rem" }}>
+            <div className="card " style={{  height: "25rem" }}>
               <img
                 src="Assets/home-icon1.svg"
                 className="image-fluid"
@@ -25,7 +25,7 @@ function Interoparaility() {
             </div>
           </div>
           <div className="col-md-4 col-12 mb-4 text-start">
-            <div className="card" style={{ width: "20rem", height: "25rem" }}>
+            <div className="card" style={{  height: "25rem" }}>
               <img
                 src="Assets/home-icon2.svg"
                 className=" image-fluid"
@@ -43,7 +43,7 @@ function Interoparaility() {
             </div>
           </div>
           <div className="col-md-4 col-12 mb-4 text-start">
-            <div className="card" style={{ width: "20rem", height: "25rem" }}>
+            <div className="card" style={{ height: "25rem" }}>
               <img
                 src="Assets/home-icon3.svg"
                 className="card-img-top image-fluid"
@@ -63,7 +63,7 @@ function Interoparaility() {
         </div>
         <div className="row py-2">
           <div className="col-md-4 col-12 mb-4 text-start">
-            <div className="card" style={{ width: "20rem", height: "25rem" }}>
+            <div className="card" style={{  height: "25rem" }}>
               <img
                 src="Assets/home-icon4-b.svg"
                 className="card-img-top image-fluid"
@@ -81,7 +81,7 @@ function Interoparaility() {
             </div>
           </div>
           <div className="col-md-4 col-12 mb-4 text-start">
-            <div className="card" style={{ width: "20rem", height: "25rem" }}>
+            <div className="card" style={{  height: "25rem" }}>
               <img
                 src="Assets/home-icon5.svg"
                 className="card-img-top image-fluid"
@@ -99,7 +99,7 @@ function Interoparaility() {
             </div>
           </div>
           <div className="col-md-4 col-12 mb-4 text-start">
-            <div className="card" style={{ width: "20rem", height: "25rem" }}>
+            <div className="card" style={{  height: "25rem" }}>
               <img
                 src="Assets/home-icon6.svg"
                 className="card-img-top image-fluid"
@@ -123,7 +123,7 @@ function Interoparaility() {
           </div>{" "}
           <br /> <br /><br /> <br />
           <div>
-          <button type="button" class="btn btn-outline-danger">Discover Polkadot</button>
+          <button type="button" class="btn btn-danger">Discover Polkadot</button>
 
           </div>{" "}
           <br />

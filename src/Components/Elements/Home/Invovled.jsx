@@ -13,7 +13,7 @@ function Invovled() {
         </h1> 
         </div> <br />
         <div>
-        <button type="button" class="btn btn-primary">Join the Community</button>
+        <button type="button" class="btn btn-danger">Join the Community</button>
 
         </div> <br />
         <div>

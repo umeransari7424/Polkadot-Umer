@@ -15,7 +15,7 @@ function Powering() {
         <br /> <br />
         <div className="row py-5">
           <div className="col-md-4 col-12 mb-4 text-start">
-            <div className="card" style={{ width: "20rem", height: "36rem" }}>
+            <div className="card" style={{height: "36rem" }}>
               <img
                 src="Assets/governance.svg"
                 className="card-img-top image-fluid"
@@ -36,7 +36,7 @@ function Powering() {
             </div>
           </div>
           <div className="col-md-4 col-12 mb-4 text-start">
-            <div className="card" style={{ width: "20rem", height: "36rem" }}>
+            <div className="card" style={{  height: "36rem" }}>
               <img
                 src="Assets/staking.svg"
                 className="card-img-top image-fluid"
@@ -56,7 +56,7 @@ function Powering() {
             </div>
           </div>
           <div className="col-md-4 col-12 mb-4 text-start">
-            <div className="card" style={{ width: "20rem", height: "36rem" }}>
+            <div className="card" style={{ height: "36rem" }}>
               <img
                 src="Assets/bonding.svg"
                 className="card-img-top image-fluid"
@@ -81,7 +81,7 @@ function Powering() {
           </div>{" "}
           <br /> <br /><br />
           <div>
-          <button type="button" class="btn btn-outline-danger">Discover DOT</button>
+          <button type="button" class="btn btn-danger">Discover DOT</button>
 
           </div>{" "}
           <br />

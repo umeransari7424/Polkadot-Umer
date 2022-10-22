@@ -5,7 +5,7 @@ function Powering() {
     <div className="powerbg">
       <div className="container text-center py-5">
         <div className="row py-5">
-          <h1>Powering the Polkadot network</h1>
+          <h1 className="heading">Powering the Polkadot network</h1>
           <br />
           <p>
             The DOT token serves three distinct purposes: governance over the
@@ -77,9 +77,9 @@ function Powering() {
         </div>
         <div className="row pb-5">
           <div>
-            <h1>Want to get involved?</h1>
+            <h1 className="heading">Want to get involved?</h1>
           </div>{" "}
-          <br /> <br /><br />
+          <br /> <br /><br /> <br />
           <div>
           <button type="button" class="btn btn-danger">Discover DOT</button>
 

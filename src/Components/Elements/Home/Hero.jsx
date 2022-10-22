@@ -6,7 +6,7 @@ function Hero() {
         <div className="container py-5">
             <div className="row">
                 <div className="col-md-6  vision">
-                    <h1>The multichain vision for Web3 starts here.</h1>
+                    <h1 className='heading'>The multichain vision for Web3 starts here.</h1>
                     <br />
                     <p>Polkadot unites and secures a growing ecosystem of specialized blockchains called parachains. Apps and services on Polkadot can securely communicate across chains, forming the basis for a truly interoperable decentralized web.</p>
                     <br />

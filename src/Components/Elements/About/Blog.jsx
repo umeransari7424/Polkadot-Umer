@@ -85,6 +85,20 @@ function Blog() {
           </div>
         </div>
       </div>
+      <div className='container text-center invovled'>
+
+<div>
+
+<h1 className='heading'>
+Want to get involved?
+</h1> 
+</div> <br />
+<div>
+<button type="button" class="btn btn-danger">Join the Community</button>
+
+</div> <br />
+
+</div>
     </div>
   );
 }

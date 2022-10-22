@@ -11,6 +11,19 @@
     span{
         color: grey;
     }
+    button{
+        position: relative;
+        background-color: transparent   !important;
+        color: #e6007a; 
+        padding: 15px 20px !important ;
+        border-color: #e6007a;
+        border-radius: 25px !important;
+        font-weight: 500 !important;     
+        &:hover{
+            background-color: #e6007a !important;
+            color: white;
+        }
+    }
 }
 
 .card-img-top{
@@ -29,6 +42,12 @@
     padding-top: 180px;
     padding-bottom: 180px;
     text-align: center;
+    .heading{
+        
+        font-size: 60px;
+        font-weight: 700;
+        
+    }
     button{
         position: relative;
         background-color: transparent   !important;
@@ -50,18 +69,19 @@
     background-size: cover;
     background-position: center;
     color: white;
-    .teamheading{
-        font-size: 70px;
-        font-weight: 700;
+    .heading{
+        font-size: 60px;
+        font-weight: 750;
     }
     button{
         position: relative;
         background-color: transparent   !important;
-        color: #e6007a; 
+        color: white; 
         padding: 15px 20px !important ;
         border-color: #e6007a;
         border-radius: 25px !important;
-        font-weight: 500 !important;     
+        
+        font-weight: 800 !important;     
         &:hover{
             background-color: #e6007a !important;
             color: white;
@@ -88,12 +108,15 @@
 }
 
 .openbg{
-    background-color: #d64cA8;
+    background-color:#e6007a;
     color: white;
-    .openheading{
-        font-size: 60px !important;
+    .heading{
+        font-size: 50px !important;
         font-weight: 700;
 
+    }
+    p{
+        font-size: 20px;
     }
 }
 .powerbg{
@@ -101,6 +124,10 @@
      color: white!important;
      .card{
         background-color: transparent !important;
+     }
+     .heading{
+        font-size: 50px!important;
+        font-weight: 700;
      }
      button{
         position: relative;
@@ -120,6 +147,13 @@
     .card{
         border : none !important;
 
+    }
+    .heading{
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .card-title{
+        font-weight: 750 !important;
     }
     button{
         position: relative;
@@ -142,6 +176,10 @@
         justify-content: center;
         flex-direction: column;
 
+    }
+    .heading{
+        font-size: 60px;
+        font-weight: 700;
     }
     button{
         position: relative;
@@ -299,10 +337,241 @@
     }
 }
 
+.twitterbg{
+    // background-color: #172026;
+
+    .twitter{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+}
+.runbg{
+     background-color: #172026;
+     color: white;
+     .heading{
+        font-size: 60px;
+        font-weight: 700;
+     }
+     .badge{
+        background-color: transparent !important;
+        border: 1px solid #e6007a ;
+        
+        &:hover{
+            background-color: #e6007a !important;
+            font-size: large !important;
+        }
+     }
+     h5{
+        line-height: 1.7;
+     }
+}
+.upcommingbg{
+    background-image: url("Media/web3-summit-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    .heading{
+        font-size: 70px;
+        font-weight: 700;
+    }
+    button{
+        position: relative;
+        background-color: transparent   !important;
+        color: #e6007a; 
+        padding: 15px 20px !important ;
+        border-color: #e6007a;
+        border-radius: 25px !important;
+        font-weight: 500 !important;     
+        &:hover{
+            background-color: #e6007a !important;
+            color: white;
+        }
+    }
+}
+.grantbg{
+    background-color: #efefef ;
+    .stack{
+        display: flex;
+        align-items: center;
+    }
+    .heading{
+        font-size: 40px;
+        font-weight: 750;
+    }
+    button{
+        position: relative;
+        background-color: transparent   !important;
+        color: #e6007a; 
+        padding: 15px 20px !important ;
+        border-color: #e6007a;
+        border-radius: 25px !important;
+        font-weight: 500 !important;     
+        &:hover{
+            background-color: #e6007a !important;
+            color: white;
+        }
+    }
+    li{
+        font-size: larger !important;
+    }
+}
+.validatorbg{
+    .heading{
+        font-size: 40px;
+        font-weight: 750;
+    }
+    b{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    li{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .validator{
+        color:#d64cA8;
+    }
+
+}
+.generalbg{
+    background-color: #172026;
+    color: white;
+    .general{
+        color: black;
+    }
+
+    .github{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    .line{
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+    }
+    .heading{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+}
+
+@media screen and (max-width: "600px"){
+    .comhero{
+        .heading{
+            font-size: 3.5rem;
+        }
+        h4{
+            font-size: 1 rem;
+        }
+    
+}
+}
 
 
+.buildhero{
+    .heading{
+        font-size: 70px;
+        font-weight: 700;
+    }
+    button{
+        position: relative;
+        background-color: transparent   !important;
+        color: #e6007a; 
+        padding: 15px 20px !important ;
+        border-color: #e6007a;
+        border-radius: 25px !important;
+        font-weight: 500 !important;     
+        &:hover{
+            background-color: #e6007a !important;
+            color: white;
+        }
+    }
+}
 
+.easilybg{
+    background-color: #172026;
+    color: white;
+    .heading{
+       font-size: 50px;
+       font-weight: 700;
+    }
+    h1{
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .badge{
+       background-color: transparent !important;
+       border: 1px solid #e6007a ;
+       
+       &:hover{
+           background-color: #e6007a !important;
+           font-size: large !important;
+       }
+    }
+    h5{
+       line-height: 1.2;
+    }
+    h4{
+        color: #e6007a;
+    }
+}
 
+.tools{
+    .card{
+        background-color: white !important;
+        border: none !important;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;       
+    }
+    .toolbold{
+        color: #e6007a;
+        line-height: 2;
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+}
+.missionbg{
+    background-color: #172026;
+    color: white;
+    button{
+        position: relative;
+        background-color: transparent   !important;
+        color: #e6007a; 
+        padding: 15px 20px !important ;
+        border-color: #e6007a;
+        border-radius: 25px !important;
+        font-weight: 500 !important;     
+        &:hover{
+            background-color: #e6007a !important;
+            color: white;
+        }
+    }
+    .heading{
+        font-size: 40px;
+        font-weight: 800;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+
+.blog{
+    .heading{
+        font-size: 50px;
+        font-weight: 700;
+    }
+}
 
 
 

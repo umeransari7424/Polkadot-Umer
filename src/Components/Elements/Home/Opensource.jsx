@@ -6,7 +6,7 @@ function Opensource() {
       <div className="container py-5">
         <div className="row">
           <div className="col-md-6">
-            <h1 className="openheading">An open-source protocol built for everyone</h1>
+            <h1 className="heading">An open-source protocol built for everyone</h1>
           </div>
           <div className="col-md-6">
             <h3>
@@ -16,18 +16,18 @@ function Opensource() {
             </h3>
           </div>
         </div> <br /><br />
-        <div className="row py-5">
+        <div className="row text-center py-5">
             <div className="col-md-3">
-                <img src="Assets/logo-circle-parity-white.svg" style={{width:"150px"}} alt="parity" />
+                <img src="Assets/logo-circle-parity-white.svg" style={{width:"100px"}} alt="parity" />
             </div>
             <div className="col-md-3">
-                <img src="Assets/logo-circle-chainsafe-white.svg" style={{width:"150px"}} alt="parity" />
+                <img src="Assets/logo-circle-chainsafe-white.svg" style={{width:"100px"}} alt="parity" />
             </div>
             <div className="col-md-3">
-                <img src="Assets/logo-circle-soramitsu-white.svg" style={{width:"150px"}} alt="parity" />
+                <img src="Assets/logo-circle-soramitsu-white.svg" style={{width:"100px"}} alt="parity" />
             </div>
             <div className="col-md-3">
-                <img src="Assets/logo-circle-polkadot-js-white.svg" style={{width:"150px"}} alt="parity" />
+                <img src="Assets/logo-circle-polkadot-js-white.svg" style={{width:"100px"}} alt="parity" />
             </div>
         </div>
       </div>

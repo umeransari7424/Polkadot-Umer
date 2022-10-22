@@ -119,7 +119,7 @@ function Interoparaility() {
         </div> <br /><br /><br /><br /><br />
         <div className="row text-center pb-5">
           <div>
-            <h1>Learn more about Polkadot's technology</h1>
+            <h1 className='heading'>Learn more about Polkadot's <br /> technology</h1>
           </div>{" "}
           <br /> <br /><br /> <br />
           <div>

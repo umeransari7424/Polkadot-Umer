@@ -9,18 +9,15 @@ function Invovled() {
         <div>
 
         <h1 className='heading'>
-        Want to get involved?
+        Have a question about <br />
+         building on Polkadot?
         </h1> 
         </div> <br />
         <div>
-        <button type="button" class="btn btn-danger">Join the Community</button>
+        <button type="button" class="btn btn-danger">Lets Connect</button>
 
         </div> <br />
-        <div>
-            <span>or learn about how to &nbsp;
-                <a href="/">Build on polkadot</a>
-            </span>
-        </div>
+        
     </div>
         </div>
   )

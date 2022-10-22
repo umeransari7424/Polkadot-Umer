@@ -60,7 +60,7 @@ function Footer() {
                         <h3>Subscribe to the newsletter to hear about Polkadot updates and events.</h3>
                     </div> <br />
                     <div>
-                    <button type="button" class="btn btn-primary">Subsribe</button>
+                    <button type="button" class="btn btn-danger">Subscribe</button>
 
                     </div>
 

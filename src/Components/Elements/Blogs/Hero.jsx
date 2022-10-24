@@ -5,7 +5,7 @@ function Hero() {
     <div className="abouthero">
       <div className="container text-center py-5">
         <h1 className="heading">
-        About Polkadot, a <br /> platform for Web3
+        Polkadot blog
         </h1>
        
       </div>

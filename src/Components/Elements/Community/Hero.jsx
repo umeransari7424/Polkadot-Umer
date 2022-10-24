@@ -3,7 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <div className="comhero">
-      <div className="container text-center py-5">
+      <div className="container text-center com py-5">
         <h1 className="heading">
         Join the Polkadot <br /> community
         </h1>

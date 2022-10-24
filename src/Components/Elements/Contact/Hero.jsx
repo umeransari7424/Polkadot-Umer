@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='techero'>
+    <div className='abouthero'>
 
     <div className='container text-center py-5'>
         <h1 className='heading'>

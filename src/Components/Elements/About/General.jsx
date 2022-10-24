@@ -9,13 +9,13 @@ function General() {
         </div>
         <div className="row">
           <div className="col-md-4">
-            <div className="card my-2">
+            <div className="card my-2  ">
               <div className="github">
                 <div>
                   <img
                     className="img-fluid"
                     style={{ width: "50px" }}
-                    src="Assets/logo-circle-github.svg"
+                    src="Assets/logo-circle-chat.svg"
                     alt="github"
                   />
                 </div>{" "}
@@ -28,13 +28,13 @@ function General() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card my-2">
+            <div className="card my-2 ">
               <div className="github">
                 <div>
                   <img
                     className="img-fluid"
                     style={{ width: "50px" }}
-                    src="Assets/logo-circle-github.svg"
+                    src="Assets/logo-circle-newsletter.svg"
                     alt="github"
                   />
                 </div>{" "}
@@ -47,13 +47,13 @@ function General() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card my-2">
+            <div className="card my-2 ">
               <div className="github">
                 <div>
                   <img
                     className="img-fluid"
                     style={{ width: "50px" }}
-                    src="Assets/logo-circle-github.svg"
+                    src="Assets/logo-circle-email.svg"
                     alt="github"
                   />
                 </div>{" "}

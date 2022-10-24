@@ -5,11 +5,11 @@ function Twitter() {
     <div className='twitterbg'>
         <div className="container text-center py-5">
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-4 git git2">
                     <div className="card text-start m-1 p-2">
                         <div className='twitter'>                           
                             <div>
-                        <img className='img-fluid' style={{width:"50px"}} src="Assets/logo-circle-github.svg" alt="github" />
+                        <img className='img-fluid' style={{width:"50px"}} src="Assets/logo-circle-twitter.svg" alt="github" />
                         </div> &nbsp; &nbsp;
                         <div>
                             <h2>GitHub</h2>
@@ -18,12 +18,12 @@ function Twitter() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 git git2">
                     <div className="card text-start m-1 p-2">
                         <div className='twitter'>
                            
                             <div>
-                        <img className='img-fluid' style={{width:"50px"}} src="Assets/logo-circle-github.svg" alt="github" />
+                        <img className='img-fluid' style={{width:"50px"}} src="Assets/logo-circle-newsletter.svg" alt="github" />
                         </div> &nbsp; &nbsp;
                         <div>
                             <h2>Documentation</h2>
@@ -32,11 +32,11 @@ function Twitter() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 git git2">
                     <div className="card text-start m-1 p-2">
                         <div className='twitter'>                           
                             <div>
-                        <img className='img-fluid' style={{width:"50px"}} src="Assets/logo-circle-github.svg" alt="github" />
+                        <img className='img-fluid' style={{width:"50px"}} src="Assets/logo-circle-reddit.svg" alt="github" />
                         </div> &nbsp; &nbsp;
                         <div>
                             <h2>Element Chat</h2>
@@ -51,7 +51,7 @@ function Twitter() {
                     <div className="card text-start m-1 p-2">
                         <div className='twitter'>                           
                             <div>
-                        <img className='img-fluid' style={{width:"50px"}} src="Assets/logo-circle-github.svg" alt="github" />
+                        <img className='img-fluid' style={{width:"50px"}} src="Assets/logo-circle-discord.svg" alt="github" />
                         </div> &nbsp; &nbsp;
                         <div>
                             <h2>GitHub</h2>
@@ -78,7 +78,7 @@ function Twitter() {
                     <div className="card text-start m-1 p-2">
                         <div className='twitter'>                           
                             <div>
-                        <img className='img-fluid' style={{width:"50px"}} src="Assets/logo-circle-github.svg" alt="github" />
+                        <img className='img-fluid' style={{width:"50px"}} src="Assets/logo-circle-element.svg" alt="github" />
                         </div> &nbsp; &nbsp;
                         <div>
                             <h2>Element Chat</h2>
@@ -94,7 +94,7 @@ function Twitter() {
                     <div className="card text-start m-1 p-2">
                         <div className='twitter'>                           
                             <div>
-                        <img className='img-fluid' style={{width:"50px"}} src="Assets/logo-circle-github.svg" alt="github" />
+                        <img className='img-fluid' style={{width:"50px"}} src="Assets/logo-circle-documentation.svg" alt="github" />
                         </div> &nbsp; &nbsp;
                         <div>
                             <h2>GitHub</h2>
@@ -108,7 +108,7 @@ function Twitter() {
                         <div className='twitter'>
                            
                             <div>
-                        <img className='img-fluid' style={{width:"50px"}} src="Assets/logo-circle-github.svg" alt="github" />
+                        <img className='img-fluid' style={{width:"50px"}} src="Assets/logo-circle-youtube.svg" alt="github" />
                         </div> &nbsp; &nbsp;
                         <div>
                             <h2>Documentation</h2>

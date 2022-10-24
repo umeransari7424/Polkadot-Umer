@@ -5,7 +5,7 @@ function Blockchain() {
     <div className='blockchainbg'>
         <div className="container-fluid">
             <div className="row">
-                <div className="col-md-8 mt-5 blockchain"> 
+                <div className="col-md-7 mt-5 blockchain"> 
                 <img className='img-fluid' src="Assets/dg-network.svg" alt="network" />               
                  </div>
                  <div className="col-md-4 p-3">

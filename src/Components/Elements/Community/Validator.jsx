@@ -22,7 +22,7 @@ function Validator() {
                 <div className="col-md-6">
                     <b className='heading1'>2. Apply to validate</b> <br />
                     <p>
-                    New validators will be chosen every 24 hours on mainnet. You’ll need to create separate accounts for Controller, Session, and Stash keys on the Polkadot UI (https://polkadot.js.org/apps/#/accounts/create). These accounts will be used to represent and control the validator node you just set up
+                    New validators will be chosen every 24 hours on mainnet. You’ll need to create separate accounts for Controller, Session, and Stash keys on the Polkadot UI  These accounts will be used to represent and control the validator node you just set up
                     </p>  
                     <p>
                     Next you will need to get some DOT from the faucet or by asking on Element. Assuming you have more DOT than the lowest staked validator or there is an open validator slot, you can register to be staked. A step-by-step guide demonstrating how to set up your accounts and bond your DOT is available on the wiki.
